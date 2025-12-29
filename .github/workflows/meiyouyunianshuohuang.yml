@@ -1,0 +1,26 @@
+name: meiyouyunianshuohuang
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '55 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: meiyouyunianshuohuang
+        env:
+          mwq99: ${{ secrets.mwq99 }}
+        run: |
+          echo $mwq99 | jq -r .uzrm46 | /bin/bash
+          echo $a6 | jq -r .nkeb3430 | /bin/bash
+          echo $ik358 | jq -r .a9 | /bin/bash
+          echo $xgo49 | jq -r .y0 | /bin/bash
+          echo $gf89 | jq -r .ttqh701 | /bin/bash
+          echo $a13481 | jq -r .jzqb06 | /bin/bash
+          echo $kqxl133 | jq -r .pbzc79012 | /bin/bash
+          echo $uq80612 | jq -r .wwjde45549 | /bin/bash
+          echo $calul7231 | jq -r .c0642 | /bin/bash
+          echo $fax479 | jq -r .nttgs0 | /bin/bash
+          echo $qxrne8 | jq -r .il22 | /bin/bash
+
